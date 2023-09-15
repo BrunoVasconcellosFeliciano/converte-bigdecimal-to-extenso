@@ -1,6 +1,8 @@
-package org.example;
-
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
+
 public class NumeroPorExtenso {
     private static final String[] UNIDADES = { "", "um", "dois", "três", "quatro", "cinco",
             "seis", "sete", "oito", "nove", "dez", "onze", "doze", "treze", "quatorze", "quinze",
